@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Burger House in Amman, Jordan. Find our hours, phone number, email, and send us a message.">
+    <title>Contact Us | Burger House</title>
+    <link rel="stylesheet" href="Css/style.Css">
+    <link rel="stylesheet" href="Css/contact.Css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="index.html">BURGER<span>HOUSE</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+            <a class="order-btn" href="menu.html">Order Now</a>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <section class="contact-intro" aria-labelledby="contact-title">
+            <p class="contact-eyebrow">BURGER HOUSE · AMMAN</p>
+            <h1 id="contact-title">Contact <span>Us</span></h1>
+            <p>Questions, feedback, or just craving a burger? We'd love to hear from you.</p>
+        </section>
+
+        <section class="contact-layout" aria-label="Contact information and message form">
+            <div class="contact-information">
+                <h2>Get in touch</h2>
+                <p class="contact-lead">Visit us in Amman or reach out by phone or email.</p>
+
+                <dl class="contact-list">
+                    <div>
+                        <dt>Location</dt>
+                        <dd>Amman, Jordan</dd>
+                    </div>
+                    <div>
+                        <dt>Phone</dt>
+                        <dd><a href="tel:+962790000000">+962 7 9000 0000</a></dd>
+                    </div>
+                    <div>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:info@burgerhouse.com">info@burgerhouse.com</a></dd>
+                    </div>
+                    <div>
+                        <dt>Opening Hours</dt>
+                        <dd>Every day, 10:00 AM - 11:00 PM</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <form class="contact-form" action="mailto:info@burgerhouse.com" method="post" enctype="text/plain">
+                <h2>Send us a message</h2>
+
+                <label for="full-name">Full Name</label>
+                <input id="full-name" name="Full Name" type="text" autocomplete="name" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="Email" type="email" autocomplete="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="location-section" aria-labelledby="location-title">
+            <div class="location-symbol" aria-hidden="true">AM</div>
+            <div>
+                <p class="contact-eyebrow">FIND BURGER HOUSE</p>
+                <h2 id="location-title">Amman, Jordan</h2>
+            </div>
+            <a href="https://maps.google.com/?q=Amman%2C+Jordan" target="_blank" rel="noopener noreferrer">View on
+                map</a>
+        </section>
+    </main>
+</body>
+
+</html>

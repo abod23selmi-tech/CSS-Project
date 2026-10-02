@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger House Menu</title>
+    <link rel="stylesheet" href="Css/style.Css">
+    <link rel="stylesheet" href="Css/menu.Css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">BURGER<span>HOUSE</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#menu" class="order-btn">Order Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section menu-page" id="menu">
+            <div class="menu-heading">
+                <p class="small-title">MADE FRESH EVERY DAY</p>
+                <h2>Our <span>Menu</span></h2>
+            </div>
+
+            <div class="menu-grid">
+                <article class="menu-item" data-price="8.99">
+                    <a class="menu-image-link" href="meal.html#classic-cheeseburger"><img class="menu-item-image"
+                            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                            alt="Classic cheeseburger with lettuce and tomato" loading="lazy"></a>
+                    <div class="menu-details-content">
+                        <div class="menu-item-heading">
+                            <h3>Classic Cheeseburger</h3>
+                            <span>$8.99</span>
+                        </div>
+                        <p>Grilled beef, melted cheddar, lettuce, tomato, and house sauce.</p>
+                    </div>
+                    <button class="menu-order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="menu-item" data-price="10.99">
+                    <a class="menu-image-link" href="meal.html#bbq-bacon-burger"><img class="menu-item-image"
+                            src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                            alt="Barbecue bacon cheeseburger" loading="lazy"></a>
+                    <div class="menu-details-content">
+                        <div class="menu-item-heading">
+                            <h3>BBQ Bacon Burger</h3>
+                            <span>$10.99</span>
+                        </div>
+                        <p>Smoky BBQ sauce, crispy bacon, cheddar, and crunchy onions.</p>
+                    </div>
+                    <button class="menu-order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="menu-item" data-price="11.99">
+                    <a class="menu-image-link" href="meal.html#double-smash"><img class="menu-item-image"
+                            src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                            alt="Double smash burger with cheese" loading="lazy"></a>
+                    <div class="menu-details-content">
+                        <div class="menu-item-heading">
+                            <h3>Double Smash</h3>
+                            <span>$11.99</span>
+                        </div>
+                        <p>Two smashed beef patties, double cheese, pickles, and burger sauce.</p>
+                    </div>
+                    <button class="menu-order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="menu-item" data-price="9.99">
+                    <a class="menu-image-link" href="meal.html#spicy-crispy-chicken"><img class="menu-item-image"
+                            src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                            alt="Crispy chicken burger with fresh lettuce" loading="lazy"></a>
+                    <div class="menu-details-content">
+                        <div class="menu-item-heading">
+                            <h3>Spicy Crispy Chicken</h3>
+                            <span>$9.99</span>
+                        </div>
+                        <p>Crunchy chicken, spicy mayo, fresh lettuce, and pickles.</p>
+                    </div>
+                    <button class="menu-order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="menu-item" data-price="10.49">
+                    <a class="menu-image-link" href="meal.html#mushroom-swiss"><img class="menu-item-image"
+                            src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                            alt="Mushroom Swiss beef burger" loading="lazy"></a>
+                    <div class="menu-details-content">
+                        <div class="menu-item-heading">
+                            <h3>Mushroom Swiss</h3>
+                            <span>$10.49</span>
+                        </div>
+                        <p>Beef patty, Swiss cheese, sauteed mushrooms, and garlic aioli.</p>
+                    </div>
+                    <button class="menu-order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="menu-item" data-price="8.49">
+                    <a class="menu-image-link" href="meal.html#garden-veggie"><img class="menu-item-image"
+                            src="https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                            alt="Vegetarian burger with fresh vegetables" loading="lazy"></a>
+                    <div class="menu-details-content">
+                        <div class="menu-item-heading">
+                            <h3>Garden Veggie</h3>
+                            <span>$8.49</span>
+                        </div>
+                        <p>Seasoned veggie patty, avocado, tomato, lettuce, and herb sauce.</p>
+                    </div>
+                    <button class="menu-order-btn" type="button">Order Now</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <dialog class="order-dialog" id="order-dialog" aria-labelledby="order-dialog-title">
+        <form id="order-form">
+            <p class="small-title">YOUR ORDER</p>
+            <h2 id="order-dialog-title">Review your burger</h2>
+            <p class="order-product" id="order-product"></p>
+
+            <label class="quantity-label" for="order-quantity">Quantity</label>
+            <input id="order-quantity" name="quantity" type="number" min="1" max="20" value="1" required>
+
+            <label class="quantity-label order-notes-label" for="order-notes">Anything to add to your meal?</label>
+            <textarea id="order-notes" name="order-notes" rows="3" maxlength="500" placeholder="For example: extra cheese, no pickles"></textarea>
+
+            <p class="order-total">Total <strong id="order-total"></strong></p>
+            <p class="order-status" id="order-status" aria-live="polite"></p>
+
+            <div class="order-dialog-actions">
+                <button class="secondary-btn" id="cancel-order" type="button">Cancel</button>
+                <button class="primary-btn" id="confirm-order" type="submit">Send Message</button>
+            </div>
+        </form>
+    </dialog>
+
+    <script>
+        const orderDialog = document.querySelector('#order-dialog');
+        const orderForm = document.querySelector('#order-form');
+        const quantityInput = document.querySelector('#order-quantity');
+        const orderNotes = document.querySelector('#order-notes');
+        const orderProduct = document.querySelector('#order-product');
+        const orderTotal = document.querySelector('#order-total');
+        const orderStatus = document.querySelector('#order-status');
+        const confirmOrderButton = document.querySelector('#confirm-order');
+        let selectedBurger = null;
+
+        function updateOrderTotal() {
+            const quantity = Number(quantityInput.value) || 1;
+            orderTotal.textContent = `$${(selectedBurger.price * quantity).toFixed(2)}`;
+        }
+
+        document.querySelectorAll('.menu-order-btn').forEach((button) => {
+            button.addEventListener('click', () => {
+                const card = button.closest('.menu-item');
+                selectedBurger = {
+                    name: card.querySelector('h3').textContent,
+                    price: Number(card.dataset.price)
+                };
+                orderProduct.textContent = `${selectedBurger.name} - $${selectedBurger.price.toFixed(2)} each`;
+                quantityInput.value = 1;
+                orderNotes.value = '';
+                orderStatus.textContent = '';
+                confirmOrderButton.disabled = false;
+                updateOrderTotal();
+                orderDialog.showModal();
+            });
+        });
+
+        quantityInput.addEventListener('input', updateOrderTotal);
+
+        document.querySelector('#cancel-order').addEventListener('click', () => {
+            orderDialog.close();
+        });
+
+        orderForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const quantity = Number(quantityInput.value);
+            const total = (selectedBurger.price * quantity).toFixed(2);
+            const note = orderNotes.value.trim() || 'No extra requests';
+            const message = [
+                `Meal: ${selectedBurger.name}`,
+                `Quantity: ${quantity}`,
+                `Total: $${total}`,
+                `Extra requests: ${note}`
+            ].join('\n');
+            const subject = `Burger House order: ${selectedBurger.name}`;
+            orderStatus.textContent = 'Opening your email app with the order details...';
+            confirmOrderButton.disabled = true;
+            window.location.href = `mailto:info@burgerhouse.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+        });
+    </script>
+</body>
+
+</html>
